@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lib_bg_wheel_view"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dip" >
+    
+    <TextView android:id="@+id/title_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"/>"
+
+    <LinearLayout
+        android:id="@+id/wheelview_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+       <!-- <com.projectzero.android.library.widget.wheelView.depend.WheelView
+            android:id="@+id/wheelview_1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.projectzero.android.library.widget.wheelView.depend.WheelView
+            android:id="@+id/wheelview_2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:visibility="gone"/>
+        
+        <com.projectzero.android.library.widget.wheelView.depend.WheelView
+            android:id="@+id/wheelview_3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:visibility="gone"/> -->
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/buttonsure"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="确定"
+            android:background="@drawable/lib_btn_selector"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/buttoncancle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="取消"
+            android:background="@drawable/lib_btn_selector"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>

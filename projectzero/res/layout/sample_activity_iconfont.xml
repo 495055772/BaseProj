@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iconfont="http://schemas.android.com/apk/res/com.projectzero.demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/iconfont_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tv"
+        android:textColor="@drawable/sample_iconfont_selector"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/iconfont_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:button="@null"
+        android:padding="0dp"
+        android:text="checkbox"
+        android:textColor="@drawable/sample_iconfont_selector"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/iconfont_checkbox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:button="@null"
+        android:padding="0dp"
+        android:text="checkbox2"
+        android:textColor="@drawable/sample_iconfont_selector"
+        android:textSize="30sp" />
+
+    <CheckBox
+            android:id="@+id/iconfont_checkbox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:button="@null"
+            android:padding="0dp"
+            android:text="checkbox3"
+            android:textColor="@drawable/sample_iconfont_selector"
+            android:textSize="30sp" />
+
+    <com.projectzero.library.widget.IconTextView
+        android:id="@+id/icontextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f0D2D1D1"
+        iconfont:iconColor="@color/default_orange_color"
+        iconfont:iconSize="30dp"
+        iconfont:iconText="啊"
+        iconfont:oriention="top"
+        iconfont:spacing="20dp"
+        iconfont:text="IconTextView"
+        iconfont:textColor="@color/default_green_color"
+        iconfont:textSize="20sp" />
+
+</LinearLayout>

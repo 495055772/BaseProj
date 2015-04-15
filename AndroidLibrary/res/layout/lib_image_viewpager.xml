@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.projectzero.android.library.widget.imageviewpager.EndlessViewPager
+        android:id="@+id/image_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lib_transparent" />
+
+    <com.projectzero.android.library.widget.imageviewpager.EndlessCircleIndicator
+        android:id="@+id/fixed_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/image_viewpager"
+        android:padding="10dip"/>
+
+</RelativeLayout>

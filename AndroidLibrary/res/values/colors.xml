@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="whitesmoke">#F5F5F5</color>
+    <!-- 烟白色 -->
+    <color name="sliver_grey">#666666</color>
+    <!-- 默认文本颜色 -->
+    <color name="default_text_color">#333333</color>
+    <!-- 默认文本获取焦点时的颜色 -->
+    <color name="default_text_focus_color">#666</color>
+    <!-- 默认橙色图标、文字的颜色 -->
+    <color name="default_orange_color">#fa5728</color>
+    <!-- 默认橙色图标、文字获取焦点时的颜色 -->
+    <color name="default_orange_focus_color">#f78e6f</color>
+    <!-- 默认绿色图标、文字的颜色 -->
+    <color name="default_green_color">#390</color>
+    <!-- 默认绿色图标、文字获取焦点时的颜色 -->
+    <color name="default_green_focus_color">#5da03c</color>
+    <!-- 蓝色 -->
+    <color name="default_blue_color">#0997F7</color>
+
+    <!-- 默认边框颜色 -->
+    <color name="default_border_color">#ddd</color>
+    <color name="filter_tv_normal_color">#eeeeee</color>
+    <color name="filter_tv_focus_color">#C2C2C2</color>
+    <color name="splite_color">#D3D3D3</color>
+    <color name="white">#ffffff</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="tab_select_bg">#2EAF01</color>
+    <color name="lib_transparent">#00000000</color>
+    <!-- 默认页面背景颜色 -->
+    <color name="default_page_backgroud_color">#F4F3ED</color>
+    <color name="calendar_active_month_bg">#fff5f7f9</color>
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">#ffbababa</color>
+    <color name="calendar_inactive_month_bg">#ffd7d9db</color>
+    <color name="calendar_selected_day_bg">#ff379bff</color>
+    <color name="calendar_highlighted_day_bg">#ccffcc</color>
+    <color name="calendar_selected_range_bg">#ff96caff</color>
+    <color name="calendar_text_inactive">#40778088</color>
+    <color name="calendar_text_active">#ff778088</color>
+    <color name="calendar_text_selected">#ffffffff</color>
+    <color name="calendar_text_unselectable">#7f778088</color>
+
+
+    <color name="rippelColor">#FFFFFF</color>
+
+    <color name="default_circle_indicator_page_color">#aeaeae</color>
+    <!-- 引导页指示圆圈颜色 -->
+    <color name="circle_indicator_normal_color">#ebeae6</color>
+    <color name="circle_indicator_focus_color">#fd5723</color>
+
+    <!-- android lib -->
+    <color name="androidlib_color_gray">#999999</color>
+    <color name="androidlib_color_orange">#fa5728</color>
+</resources>

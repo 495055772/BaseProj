@@ -1,0 +1,71 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projectzero.demo"
+    android:versionCode="11111111"
+    android:versionName="11.11.11">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+	<uses-permission android:name="android.permission.CAMERA"/>
+     <!-- umeng统计 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <!-- DeviceInfo需要  -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    
+    <application
+        android:name=".ProjectApp_"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light"
+        android:allowBackup="true">
+        
+         <!-- umeng统计 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55091cc6fd98c54f62000168" />
+
+        <!--umeng渠道命名规范：-->
+        <!--可以由英文字母、阿拉伯数字、下划线、中划线、空格、括号组成，可以含汉字以及其他明文字符，但是不推荐使用。-->
+        <!--首尾字符不可以为空格-->
+        <!--最多256个字符-->
+        <!--"unknown" 及其各种大小写形式，作为友盟保留的字段，不可以作为渠道名-->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="dev" />
+
+        <!-- 标示本次提交git版本号，打包脚本会修改此处 -->
+        <meta-data
+            android:name="GIT_COMMIT_VER"
+            android:value="本次提交git版本号" />
+        
+        <activity
+            android:name=".samplemain.SampleListActivity_"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".samplemain.sample.sampleStartOtherActivity.SampleActivity001_" android:screenOrientation="portrait"/>
+        <activity android:name=".samplemain.sample.sampleStartOtherActivity.SampleActivity002_" android:screenOrientation="portrait"/>
+        <activity android:name=".samplemain.sample.sampleDeviceInfo.DeviceInfoActivity_" android:screenOrientation="portrait"/>
+        <activity android:name=".samplemain.sample.sampleDB.SampleDbActivity_" android:screenOrientation="portrait"/>
+        <activity android:name=".samplemain.sample.sampleHttp.HttpUtilActivity_" android:screenOrientation="portrait"/>
+        <activity android:name=".samplemain.sample.sampleImageHelper.ImageHelperActivity_" android:screenOrientation="portrait"/>
+        <activity android:name=".samplemain.sample.sampleImageLoader.ImageLoaderActivity_" android:screenOrientation="portrait"/>
+        <activity android:name=".samplemain.sample.sampleIconfont.SampleIconfontActivity_" android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

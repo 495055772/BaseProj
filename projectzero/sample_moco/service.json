@@ -1,0 +1,98 @@
+[
+{
+  "response" :
+    {
+      "text" : "hello moco"
+    }
+},
+{
+    "request": {
+        "uri": "/get"
+    },
+    "response": {
+        "text": {
+            "template": "test = ${req.queries['test']}  test002 = ${req.queries['test002']}"
+        }
+    }
+},
+{
+  "request" :
+    {
+      "uri" : "/timeout"
+    },
+  "response" :
+    {
+      "text" : "bar",
+      "latency" : 30000
+    }
+},
+{
+    "request": {
+        "uri": "/getshowheader"
+    },
+    "response": {
+        "text": {
+            "template": "${req.headers['header001']}"
+        }
+    }
+},
+{
+  "request" :
+    {
+      "uri": "/post",
+      "method" : "post"
+    },
+  "response" :
+    {
+      "text" : "postmethod ok"
+    }
+},
+{
+  "request" :
+    {
+      "uri": "/postparamter",
+      "method" : "post"
+    },
+  "response" :
+    {
+	"text": {
+            "template": "req.forms:patamter = ${req.forms['patamter']}   req.forms:patamter002 = ${req.forms['patamter002']} ------- req.queries:patamter = ${req.queries['patamter']}   req.queries:patamter002 = ${req.queries['patamter002']}}"
+	}
+    }
+},
+{
+  "request" :
+    {
+      "uri": "/postform",
+      "method" : "post"
+    },
+  "response" :
+    {
+	"text": {
+            "template": "req.forms:form = ${req.forms['form']}   req.forms:form002 = ${req.forms['form002']}"
+	}
+    }
+},
+{
+    "request": {
+        "uri": "/postheader"
+    },
+    "response": {
+        "text": {
+            "template": "${req.headers['header000']}"
+        }
+    }
+},
+{
+  "request" :
+    {
+      "uri" : "/posttimeout",
+      "method" : "post"
+    },
+  "response" :
+    {
+      "text": "ok",
+      "latency" : 30000
+    }
+}
+]

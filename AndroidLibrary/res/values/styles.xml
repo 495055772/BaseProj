@@ -1,0 +1,93 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="WheelViewDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/lib_transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="CalendarTitle">
+        <item name="android:textSize">@dimen/calendar_text_medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CalendarCell">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CalendarCell.DayHeader">
+        <item name="android:textSize">@dimen/calendar_text_small</item>
+    </style>
+
+    <style name="CalendarCell.CalendarDate">
+        <item name="android:textSize">@dimen/calendar_text_medium</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="listview_template">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:listSelector">#00000000</item>
+        <item name="android:divider">#00000000</item>
+    </style>
+
+    <style name="AndroidLib"/>
+    <!-- Text -->
+    <style name="AndroidLib.Text">
+        <item name="android:textSize">@dimen/androidlib_text_common</item>
+    </style>
+
+    <style name="AndroidLib.Text.Gray">
+        <item name="android:textColor">@color/androidlib_color_gray</item>
+    </style>
+
+    <style name="AndroidLib.Text.Orange">
+        <item name="android:textColor">@color/androidlib_color_orange</item>
+    </style>
+    
+    <style name="AndroidLib.Text.Big">
+        <item name="android:textSize">@dimen/androidlib_text_big</item>
+    </style>
+
+    <style name="AndroidLib.Text.Big.Orange">
+        <item name="android:textColor">@color/androidlib_color_orange</item>
+    </style>
+
+    <style name="AndroidLib.Text.Big.Gray">
+        <item name="android:textColor">@color/androidlib_color_gray</item>
+    </style>
+
+    <style name="AndroidLib.Text.BigBig">
+        <item name="android:textSize">@dimen/androidlib_text_bigbig</item>
+    </style>
+
+    <style name="AndroidLib.Text.BigBig.Orange">
+        <item name="android:textColor">@color/androidlib_color_orange</item>
+    </style>
+</resources>

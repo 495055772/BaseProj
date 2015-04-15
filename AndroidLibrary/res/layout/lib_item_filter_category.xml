@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lib_selector_filter_category_text"
+    android:gravity="center_vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/filter_category_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:singleLine="true"
+        android:textColor="@color/default_text_focus_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/filter_category_ic_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/default_text_focus_color"
+        android:paddingRight="3dp"
+        android:textSize="15sp" />
+
+</LinearLayout>

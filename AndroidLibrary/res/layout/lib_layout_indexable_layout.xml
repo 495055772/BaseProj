@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/indexable_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:scrollbars="none" />
+
+    <com.projectzero.android.library.widget.indexablelistview.IndexableSideBarView
+        android:id="@+id/indexable_sidebar"
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/indexable_key"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="#4f000000"
+        android:gravity="center"
+        android:padding="1dp"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
