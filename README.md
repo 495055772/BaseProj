@@ -1,4 +1,4 @@
-# [android annotations](http://www.baidu.com)
+# [android annotations](https://github.com/excilys/androidannotations)
 ####android annotations源于java annotations
 ####java annotations中包含三种类型：SourceCode、Class、Runtime。
 
@@ -6,7 +6,7 @@
 * Class  写在源代码中，在编译过程中，被保留到class文件中。
 * Runtime 信息被写入class文件中，在系统运行过程中，被VM提取。通过Reflective API来读取相应的信息。
 
-详细java annotation 解释:http://blog.csdn.net/blueheart20/article/details/18810693
+[详细java annotation 解释](http://blog.csdn.net/blueheart20/article/details/18810693)
 
 #### android annotations是Class类型 
 ![Aaron Swartz]( https://raw.githubusercontent.com/495055772/BaseProj/master/screenShot/classtype.png)
@@ -35,7 +35,7 @@
 
 #### 优点描述看代码
 
-wiki: https://github.com/excilys/androidannotations/wiki
+[android annotation](wiki: https://github.com/excilys/androidannotations/wiki)
 
 代码简洁 可维护性 150kb以下
 
@@ -55,15 +55,9 @@ https://github.com/495055772/BaseProj/blob/master/projectzero/generated/com/proj
 
 
 
-#### 文档
-
-https://github.com/excilys/androidannotations/wiki/AvailableAnnotations
+#### [文档](https://github.com/excilys/androidannotations/wiki/AvailableAnnotations)
 
 
-
-####ISSUE:
-https://github.com/excilys/androidannotations/wiki/FAQ#import
+#### [ISSUE](https://github.com/excilys/androidannotations/wiki/FAQ#import)
 
 
-####项目主页
-https://github.com/excilys/androidannotations
