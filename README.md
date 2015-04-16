@@ -1,5 +1,4 @@
-# BaseProj
-####Annotaion 实现的方式
+# android annotations
 
 ####android annotations源于java annotations
 ####java annotations中包含三种类型：SourceCode、Class、Runtime。
