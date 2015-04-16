@@ -18,8 +18,7 @@
 
 ####综上可知：
   所有使用android annotation的类都会生成新的带_的java文件
-  
- ####比如
+####比如
  * 注册你使用过注解的四大主件 都是带有下划线的类
  * fragment等 调用使用过注解的类  都是调用下划线的类
  
@@ -29,7 +28,7 @@
 
 ![Aaron Swartz]( https://raw.githubusercontent.com/495055772/BaseProj/master/screenShot/manifest.png)
 
-## 综上所述 android annotation 不是runtime操作，都在编译期生成新的源文件，对程序运行速度没有影响。
+## 综上所述 android annotations 不是runtime操作，都在编译期生成新的源文件，对程序运行速度没有影响。
 
 
 
