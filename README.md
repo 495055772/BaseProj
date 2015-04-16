@@ -13,6 +13,7 @@
 #### android annotations是Class类型 
 ![Aaron Swartz]( https://raw.githubusercontent.com/495055772/BaseProj/master/screenShot/classtype.png)
 
+* 它的原理就是根据注解额外添加编辑代码，生成一个新的源码文件，注解的方式是采用标准的Annotation Processing Tool.
 * 利用Java Annotation Processing Tool (APT) 在编译源文件(*.java)之前，通过注解处理器(AnnotationProcessor)解释并处理源文件中的注解，生成 一些新的源文件，APT也会对新生成源文件进行编译，直到没有新的文件生成。新生成的源文件在apt_generated文件夹中。
 
 ![Aaron Swartz]( https://raw.githubusercontent.com/495055772/BaseProj/master/screenShot/apt_generated.png)
